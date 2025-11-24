@@ -1,26 +1,38 @@
-<img width="654" height="502" alt="image" src="https://github.com/user-attachments/assets/7110b809-b870-49fe-b607-12da74f5cb98" />
+# 🔐 Kriptoloji Şifreleme Algoritmaları
 
+Bu proje, klasik kriptografi yöntemlerini kullanarak düz metinlerin (plaintext) şifrelenmesini sağlayan algoritmaları içermektedir. 
 
-Bu proje klasik kriptografi yöntemlerini kullanarak düz metinlerin şifrelenmesini sağlayan algoritmaları içermektedir. 
+Şifreleme işlemleri, projenin **şifre çözme modülüyle tam uyumlu** çalışacak şekilde tasarlanmıştır.
 
-Şifreleme işlemleri, şifre çözme modülüyle tam uyumlu çalışacak şekilde tasarlanmıştır.
+## 🚀 Proje Özellikleri
 
-Tüm algoritmalar C# dili kullanılarak, hazır kriptografi kütüphaneleri kullanılmadan manuel matematiksel işlemlerle geliştirilmiştir.
+* **Dil:** C#
+* **Yöntem:** Hazır kriptografi kütüphaneleri **kullanılmamış**, tüm algoritmalar manuel matematiksel işlemlerle kodlanmıştır.
+* **Dil Desteği:** Türkçe karakter desteği sağlanmıştır.
+* **İndeksleme:** `A = 0` olacak şekilde alfabetik indeksleme mantığı esas alınmıştır.
 
-Türkçe karakter desteği sağlanmış, A harfi = 0 olacak şekilde alfabetik indeksleme mantığı esas alınmıştır.
+## 🛠 İçerik: Algoritmalar
 
-İÇERİK
-Projede şifreleme işlemleri aşağıdaki 11 algoritma için uygulanmıştır:
-Sezar Şifreleme (Caesar Cipher)
-Kaydırmalı Şifreleme (Shift Cipher)
-Doğrusal (Affine) Şifreleme
-Yerdeğiştirme (Substitution) Şifreleme
-Permütasyon Şifreleme
-Sayı Anahtarlı Yerdeğiştirme Şifreleme (Number-Keyed Substitution)
-Rota Şifreleme (Route Cipher)
-Zigzag / Rail Fence Şifreleme
-Vigenère Şifreleme
-4 Kare (Four-Square) Şifreleme
-Hill Şifreleme (NxN Matris)
+Projede şifreleme işlemleri aşağıdaki **11 algoritma** için uygulanmıştır:
 
-Kullanıcıdan şifrelenecek açık metin ve seçilen algoritmaya özgü anahtar verileri alınmakta ve çıktı olarak şifreli metin döndürülmektedir.
+1.  Sezar Şifreleme (Caesar Cipher)
+2.  Kaydırmalı Şifreleme (Shift Cipher)
+3.  Doğrusal (Affine) Şifreleme
+4.  Yerdeğiştirme (Substitution) Şifreleme
+5.  Permütasyon Şifreleme
+6.  Sayı Anahtarlı Yerdeğiştirme Şifreleme (Number-Keyed Substitution)
+7.  Rota Şifreleme (Route Cipher)
+8.  Zigzag / Rail Fence Şifreleme
+9.  Vigenère Şifreleme
+10. 4 Kare (Four-Square) Şifreleme
+11. Hill Şifreleme (NxN Matris)
+
+## 💻 Kullanım
+
+Program çalıştırıldığında kullanıcıdan aşağıdaki veriler istenir:
+
+1.  **Algoritma Seçimi:** Listeden uygulanmak istenen şifreleme yöntemi seçilir.
+2.  **Anahtar Verileri:** Seçilen algoritmaya özgü parametreler girilir (Örn: Kaydırma sayısı, matris boyutu, anahtar kelime vb.).
+3.  **Metin Girişi:** Şifrelenecek açık metin (plaintext) girilir.
+
+**Sonuç:** Program, girilen verilere göre **şifreli metni (ciphertext)** konsol ekranına yazdırır.
