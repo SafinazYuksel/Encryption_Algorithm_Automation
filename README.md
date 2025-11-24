@@ -1,4 +1,4 @@
-<img width="806" height="651" alt="image" src="https://github.com/user-attachments/assets/e1aa08ba-e6a7-4ec0-b71f-f45eae56b948" /><img width="654" height="502" alt="image" src="https://github.com/user-attachments/assets/7110b809-b870-49fe-b607-12da74f5cb98" />
+<img width="654" height="502" alt="image" src="https://github.com/user-attachments/assets/7110b809-b870-49fe-b607-12da74f5cb98" />
 
 
 Bu proje klasik kriptografi yöntemlerini kullanarak düz metinlerin şifrelenmesini sağlayan algoritmaları içermektedir. 
